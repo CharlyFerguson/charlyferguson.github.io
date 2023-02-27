@@ -1,0 +1,99 @@
+body{
+    padding: 100px 500px 100px 500px;
+    background-color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+hr{
+    color: aqua;   
+}
+.nav{
+    display: flex;
+    background-color: black;
+    border: 2px solid grey;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+    }
+.nav a{
+        font-weight: 400;
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        text-decoration: none;
+    }
+.nav a:hover{
+        color:grey;
+        
+    }
+.calido a:hover{
+    background-color: blanchedalmond;
+}    
+.nav button{
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    text-decoration: none;
+    
+}    
+.nav button:hover{
+    color:grey;
+}
+ 
+.img{
+    /* width: 20%; */
+    width: 340px; 
+    height: 500px;
+}
+.principal{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+.principal p {
+    margin: 0;
+}
+.titulo1{
+    margin-top: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.titulo2{
+    margin-top: 3rem;
+    margin-bottom: 0;
+    
+}
+
+.habilidades-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}   
+    .pie{
+        
+        text-align: center; 
+    }
+    .pie a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+    }
+    
+    .white{
+        background-color: white;
+        padding: 5px;
+    }
